@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../Pages/Banner/Banner';
+import Navbar from '../shared/Navbar/Navbar';
 import './Home.css'
 const Home = () => {
     return (
@@ -33,46 +34,46 @@ const Home = () => {
                 </div>
                 <div >
                     <div className='lab_partners_img'>
-                        <div className="hero ">
+                        <div className="hero rounded-2xl bg-slate-50">
                             <div className="hero-content flex-col lg:flex-row">
                                 <img src="https://i.ibb.co/Smzx8Wz/ibnesina.png" alt='' className=" rounded-lg " />
 
                             </div>
                         </div>
-                        <div className="hero  ">
+                        <div className="hero rounded-2xl bg-slate-50 ">
                             <div className="hero-content flex-col lg:flex-row">
                                 <img src="https://i.ibb.co/86JvN4p/drlab.jpg" alt='' className=" rounded-lg " />
 
                             </div>
                         </div>
 
-                        <div className="hero ">
+                        <div className="hero rounded-2xl bg-slate-50">
                             <div className="hero-content flex-col lg:flex-row">
                                 <img src="https://i.ibb.co/QprwrxZ/islamibank.png" alt='' className="max-w-sm rounded-lg " />
 
                             </div>
                         </div>
-                        <div className="hero ">
+                        <div className="hero rounded-2xl bg-slate-50">
                             <div className="hero-content flex-col lg:flex-row">
                                 <img src="https://i.ibb.co/mJ1r93r/onomosmonile.png" alt='' className="max-w-sm rounded-lg " />
 
                             </div>
                         </div>
                     </div>
-                    <div className='grid md:grid-cols-3'>
-                        <div className="hero">
+                    <div className='lab_partner2 '>
+                        <div className="hero rounded-2xl bg-slate-50">
                             <div className="hero-content flex-col lg:flex-row">
                                 <img src="https://i.ibb.co/v1F04zd/popular.png" alt='' className="max-w-sm rounded-lg " />
 
                             </div>
                         </div>
-                        <div className="hero ">
+                        <div className="hero rounded-2xl bg-slate-50">
                             <div className="hero-content flex-col lg:flex-row">
                                 <img src="https://i.ibb.co/4fg9WRN/thyrocare.jpg" alt='' className="max-w-sm rounded-lg " />
 
                             </div>
                         </div>
-                        <div className="hero  ">
+                        <div className="hero rounded-2xl bg-slate-50 ">
                             <div className="hero-content flex-col lg:flex-row">
                                 <img src="https://i.ibb.co/jzXsqGX/united.png" alt='' className="max-w-sm rounded-lg" />
 

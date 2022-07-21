@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-
+import './Navbar.css'
 const Navbar = () => {
+   
     return (
-        <div className=''>
+        <div>
             <div className='bg-indigo-100 '>
                 <h4 className='ml-28 p-3'>Call For Order: <span className=' text-lg font-bold'>09643445566</span> </h4>
             </div>
@@ -24,17 +25,17 @@ const Navbar = () => {
                         <div>
                             <p><i class="fa-solid fa-location-dot"></i></p>
                             <p className='text-xl'>Your Location <br />
-                            <span className='text-sm '>Dhaka</span>
+                                <span className='text-sm '>Dhaka</span>
                             </p>
                         </div>
                         <div className='flex justify-between items-center'>
-                        <button class="btn btn-active btn-ghost hover:bg-gray-400 ">Login</button>
-                        <button class="btn btn-info hover:bg-blue-400 text-white ">SignUp</button>
-                                               
+                            <button class="btn btn-active btn-ghost hover:bg-gray-400 ">Login</button>
+                            <button class="btn btn-info hover:bg-blue-400 text-white ">SignUp</button>
+
                         </div>
                     </div>
                 </div>
-                <div></div>
+               
             </div>
         </div>
     );
