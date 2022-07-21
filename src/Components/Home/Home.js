@@ -83,6 +83,53 @@ const Home = () => {
                 </div>
 
             </section>
+            <section>
+                <div className='font-bold font-serif text-3xl flex justify-center mt-16'>
+                    <p>Why Book With Us?</p>
+                </div>
+                <div className='grid sm:grid-cols-1 md:grid-cols-3 mt-8 justify-center items-center mx-24'>
+                    <div className='flex flex-col justify-center items-center'>
+                        <img src="https://i.ibb.co/QCYvCLG/1.png" className='rounded-3xl bg-slate-100 p-5' alt="" />
+                        <p className='text-3xl mt-5'>Safe Home Sample </p>
+                        <p className='text-3xl'> Collection</p>
+                        <p className='mt-5 text-lg'>A certified professional <br /> will collect your sample <br /> from your location.</p>
+                    </div>
+                    <div className='flex flex-col justify-center items-center'>
+                        <img className='rounded-3xl bg-slate-100 p-5' src="https://i.ibb.co/mXvRtp8/2.png" alt="" />
+                        <p className='text-3xl mt-5'>Get Digital Report Within</p>
+                        <p className='text-3xl'> A DAY</p>
+                        <p className='mt-5 text-lg'>Our labs ensure turn- <br /> around-time of 24 hours <br /> from specimen pickup</p>
+                    </div>
+                    <div className='flex flex-col justify-center items-center'>
+                        <img className='rounded-3xl bg-slate-100 p-5' src="https://amarlab.com/static/media/tag.017a3400.svg" alt="" />
+                        <p className='text-3xl mt-5'>Offers And Affordable</p>
+                        <p className='text-3xl'>Price</p>
+                        <p className='mt-5 text-lg'>Get great discounts  and <br /> offers on tests  and <br /> packages.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section className='Order_now'>
+                <div className='grid sm:grid-cols-1 md:grid-cols-2 ml-28 mt-24  mr-28 gap-5'>
+                    <div className='rounded-3xl bg-indigo-100'> 
+                        <p className='text-3xl ml-10 mt-10 '>
+                            Order Diagnostics Service <br /> From Top Labs
+                        </p>
+                        <p className='ml-10 mt-3 text-lg'>
+                            Order Diagnostic Tests from Preferred Labs.
+                        </p>
+                        <button class="btn btn-info hover:bg-blue-400 text-white text-lg ml-10 mt-10 ">Order Now</button>
+                    </div>
+                    <div className='rounded-3xl  bg-slate-300'>
+                        <p className='text-3xl ml-10 mt-10'>
+                            Order Packages From Top <br /> Labs
+                        </p>
+                        <p className='ml-10 mt-3 text-lg' >Order Heavily Discounted packages.</p>
+                        <button class="btn btn-info hover:bg-blue-400 text-white text-lg ml-10 mt-10 mb-10 ">Order Now</button>
+                    </div>
+                </div>
+
+            </section>
 
         </div>
     );
