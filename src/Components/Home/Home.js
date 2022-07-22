@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Banner from '../Pages/Banner/Banner';
-import Navbar from '../shared/Navbar/Navbar';
+import offer1 from '../../Assets/Enjoy special offer/privilage1.png'
+import offer2 from '../../Assets/Enjoy special offer/new-cover.png'
 import './Home.css'
+
+
+
 const Home = () => {
     return (
         <div>
@@ -83,7 +87,7 @@ const Home = () => {
                 </div>
 
             </section>
-            <section>
+            <section className='Book_with_us'>
                 <div className='font-bold font-serif text-3xl flex justify-center mt-16'>
                     <p>Why Book With Us?</p>
                 </div>
@@ -111,7 +115,7 @@ const Home = () => {
             </section>
             <section className='Order_now'>
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 ml-28 mt-24  mr-28 gap-5'>
-                    <div className='rounded-3xl bg-indigo-100'> 
+                    <div className='rounded-2xl bg-indigo-100'>
                         <p className='text-3xl ml-10 mt-10 '>
                             Order Diagnostics Service <br /> From Top Labs
                         </p>
@@ -120,7 +124,7 @@ const Home = () => {
                         </p>
                         <button class="btn btn-info hover:bg-blue-400 text-white text-lg ml-10 mt-10 ">Order Now</button>
                     </div>
-                    <div className='rounded-3xl  bg-slate-300'>
+                    <div className='rounded-2xl  bg-slate-300'>
                         <p className='text-3xl ml-10 mt-10'>
                             Order Packages From Top <br /> Labs
                         </p>
@@ -130,6 +134,109 @@ const Home = () => {
                 </div>
 
             </section>
+            <section className='Booking_text'>
+                <div className='flex flex-col p-10  bg-indigo-100 mt-24'>
+                    <div >
+                        <p className='ml-28 font-bold text-3xl '>
+                            Need help in booking a test?
+                        </p>
+                        <p className='ml-28 text-lg'>
+                            Enter your contact details below and our team will call you.
+                        </p>
+                    </div>
+                    <div className='ml-28 my-3'>
+                        <input type="text" placeholder="MOBILE NO" className="input w-full max-w-xs h-12" />
+                        <button class="btn p-4  btn-info ml-3 text-white">Submit</button>
+                    </div>
+                </div>
+            </section>
+            <section className='Enjoy_special_offer mt-24'>
+                <div className='flex justify-center '>
+                    <p className='text-3xl font-bold'>Enjoy Special Offers</p>
+                </div>
+                <div className='flex gap-5 mt-10 mx-24'>
+                    <div>
+                        <img src={offer1} alt="" />
+                    </div>
+                    <div>
+                        <img src={offer2} alt="" />
+                    </div>
+                </div>
+            </section>
+            <section className='Our_Achivment mt-24'>
+                <div>
+                    <p className='text-3xl font-bold justify-center flex'>Our Achievements</p>
+                    <div class=" mt-8 carousel w-4/5 h-52 text-center items-center mx-24 rounded-tl-3xl rounded-br-3xl">
+                        <div id="slide6" className=" justify-center carousel-item relative w-full">
+                            <img src='' alt="" />
+                            <div className='w-5/6 '>
+                                <p className='text-center'>
+                                    Thanks to AmarLab for their excellent service. I have eye problems that don’t allow me to go out for a diagnostic test. The agent was very cooperative and polite to collect my sample. And, I did not feel pain at all.
+
+
+                                </p>
+                            </div>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide10" class="btn btn-circle">❮</a>
+                                <a href="#slide7" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide7" class="carousel-item relative justify-center w-full">
+                            <img src='' alt="" />
+                            <div className='w-4/5'>
+                                <p className='text-center'>
+                                    Very professional service from AmarLab. The representative was really helpful to listen to our health problems and suggested us accordingly. I recommend them to everyone to try their service.
+
+
+                                </p>
+                            </div>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide6" class="btn btn-circle">❮</a>
+                                <a href="#slide8" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide8" class="carousel-item relative justify-center w-full">
+                            <img src='' alt="" />
+                            <p>
+                                It was a great experience to receive the service of AmarLab. My healthcare need was rightly fulfilled by the Agent. I am very much impressed with AmarLab. Thank you AmarLab’s whole team for their amazing service.
+
+
+                            </p>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide7" class="btn btn-circle">❮</a>
+                                <a href="#slide9" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide9" class="carousel-item relative justify-center w-full">
+                            <img src='' alt="" />
+                            <p>
+                                Very much satisfied with the service of AmarLab. The agents reached my home on time. They were taking proper safety precautions before taking my sample. So I was fully relieved to avail their service. Great service indeed!
+
+
+                            </p>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide8" class="btn btn-circle">❮</a>
+                                <a href="#slide10" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide10" class="carousel-item flex flex-col relative justify-center w-full">
+                            <img src="" alt="" />
+                            <p>
+                                AmarLab has taken a wonderful initiative to help the old sick patients at home. Their service is on a good track now. I wish them good luck so that they can go forward with this benevolent service for the people.
+
+
+                            </p>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide9" class="btn btn-circle">❮</a>
+                                <a href="#slide6" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
 
         </div>
     );
