@@ -167,6 +167,7 @@ const Home = () => {
             </section>
            <OurAchivment></OurAchivment>
             <TopArticals></TopArticals>
+        
 
         </div>
     );
