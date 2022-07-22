@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Navbar.css'
+import { HiLocationMarker } from "react-icons/hi";
 const Navbar = () => {
    
     return (
@@ -23,11 +24,13 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='grid grid-cols-3'>
-                        <div>
-                            <p><i class="fa-solid fa-location-dot"></i></p>
-                            <p className='text-xl'>Your Location <br />
+                        <div className='flex gap-3 items-center justify-start'>
+                            <p className='text-2xl'><HiLocationMarker></HiLocationMarker></p>
+                           <div>
+                           <p className='text-xl'>Your Location <br />
                                 <span className='text-sm '>Dhaka</span>
                             </p>
+                           </div>
                         </div>
                         <div className='flex justify-between items-center'>
                             <button class="btn btn-active btn-ghost hover:bg-gray-400 ">Login</button>

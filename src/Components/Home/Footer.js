@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../Assets/favicon/company_logo.jpg';
+import footer from '../../Assets/footer.png'
 const Footer = () => {
     return (
         <div>
@@ -31,18 +32,24 @@ const Footer = () => {
                     <span class="font-bold text-xl">Services</span>
                     <a class="link link-hover">DiagonStic</a>
                     <a class="link link-hover">Health Packeges</a>
-                    
+
                 </div>
                 <div className='mt-24'>
                     <span class="font-bold text-xl">For Patients</span>
                     <a class="link link-hover">Create Accout</a>
                     <a class="link link-hover">Login</a>
-                    
+
                 </div>
             </footer>
+            <div className='flex '>
+                <div className='w-2/5 bg-slate-100'></div>
+                <div className='w-3/5 bg-slate-100 flex justify-end items-center pb-10'>
+                    <img src={footer} alt="" />
+                </div>
+            </div>
             <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
                 <div class="items-center grid-flow-col ml-24">
-                   
+
                     <p>AmarLab Ltd. © 2022. <a className='text-xl font-semibold' href=" ">Privacy & Terms</a></p>
                 </div>
                 <div class="md:place-self-center md:justify-self-end">

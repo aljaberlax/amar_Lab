@@ -1,5 +1,5 @@
 import React from 'react';
-import Slick from '../../Home/Slick';
+import { HiShoppingBag } from "react-icons/hi";
 
 const Banner = () => {
     return (

@@ -5,6 +5,8 @@ import offer2 from '../../Assets/Enjoy special offer/new-cover.png'
 import './Home.css'
 import OurAchivment from './OurAchivment';
 import TopArticals from './TopArticals';
+import AskQuestion from './AskQuestion';
+import Featured from './Featured';
 
 
 
@@ -167,7 +169,8 @@ const Home = () => {
             </section>
            <OurAchivment></OurAchivment>
             <TopArticals></TopArticals>
-        
+        <AskQuestion></AskQuestion>
+        <Featured></Featured>
 
         </div>
     );
