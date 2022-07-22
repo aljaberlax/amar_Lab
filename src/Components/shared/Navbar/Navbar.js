@@ -5,6 +5,7 @@ const Navbar = () => {
    
     return (
         <div>
+            
             <div className='bg-indigo-100 '>
                 <h4 className='ml-28 p-3'>Call For Order: <span className=' text-lg font-bold'>09643445566</span> </h4>
             </div>

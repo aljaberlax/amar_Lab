@@ -1,4 +1,5 @@
 import React from 'react';
+import Slick from '../../Home/Slick';
 
 const Banner = () => {
     return (
@@ -6,7 +7,6 @@ const Banner = () => {
             <div className='grid sm:grid-cols-1 md:grid-cols-2'>
                 <div>
                     <p className='text-5xl font-bold ml-32 mt-8'>Diagnostics
-
                     </p>
                     <p className='text-5xl font-bold ml-32 mt-3'>
                         At Your Doorstep
